@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4823a14e697b79479535cb6f25e2a7a, type: 3}
+  m_Name: B1. Pod 1
+  m_EditorClassIdentifier: 
+  storyText: 'You quickly rip the pod door open and make your way to the console.
+    The screen is damaged beyond repair and the inputs crackle with electric discharges
+    from exposed wiring. A small personal radio still works, but has a very limited
+    range. As you fiddle with the radio, you notice it''s almost dark and the temperature
+    is dropping.
+
+
+    1. Try to mess with the radio and electronics in the pod,
+    maybe you can science the shit out of this...
+
+    2. Gather the first aid kit
+    and rations and get hiking, if I am going for the settlement, I need to leave
+    now.
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: 6a805b503f1dfa44fbf6a0fd750bc636, type: 2}
+  - {fileID: 11400000, guid: e3ff27f2cf988c64da8c8530816139d3, type: 2}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4823a14e697b79479535cb6f25e2a7a, type: 3}
+  m_Name: A3b. Hostile
+  m_EditorClassIdentifier: 
+  storyText: "With a firm grip on your knife, you brace yourself, standing your ground.
+    You yell out \"Stop!\" and raise your free hand flat out hoping the figure understands.
+    No change in speed, you can't see it's face or make out any features under the
+    cover of the night sky, just a black shadow moving towards you fast. \n\nAs it
+    comes across the dune you ready yourself, teeth clinched and blood hot you lunge
+    the knife into the figure as it moves towards you. There is no resistance as
+    you pass right through the darkness and fall onto the sand. You quickly rise
+    to your feet and look around, only sand and stars across an endless purple sky.
+    \n\nYour body tingles with a warmth even in this cold desert. Maybe it's the
+    adrenaline you think to yourself and put your knife back in it's sheath. The
+    light on the horizon seems to have returned as well. \n\n1. Time to focus and
+    head out towards the light. (WIP/START OVER) \n2. What the hell just happened?
+    Collect your thoughts and grab a snack."
+  nextStates:
+  - {fileID: 11400000, guid: 37d9fb1491dac6241a2664fc59c966e3, type: 2}
+  - {fileID: 11400000, guid: 610c2f9fb906c6643b20f4632e114e38, type: 2}

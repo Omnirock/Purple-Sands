@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4823a14e697b79479535cb6f25e2a7a, type: 3}
+  m_Name: B3. Electronics Fail
+  m_EditorClassIdentifier: 
+  storyText: "Shivers run through your body as sweat drips from your forehead. The
+    anxiety of being trapped in the pod coupled with the plunging temperature causes
+    your body to go into shock. \n\nCollapsing on the floor, you watch as the damaged
+    console sparks and crackles as it ignites the surrounding area.\n\nYour lungs
+    fill with smoke and your eyes burn. Scraping at the pod door your nails peel
+    away and your fingers bleed as you try with all your might to get through. It's
+    of no use, suffocating from smoke and engulfed in flames, you die in agony, no
+    one hears you and you are never seen again.\n\n1. Continue... "
+  nextStates:
+  - {fileID: 11400000, guid: 22fea6ed1f7f9104ab129a60354e0e77, type: 2}

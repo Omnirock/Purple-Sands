@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4823a14e697b79479535cb6f25e2a7a, type: 3}
+  m_Name: A2. Desert 1
+  m_EditorClassIdentifier: 
+  storyText: 'You set your sights on the lights in the distance and start walking. 
+    The desert seems to stretch on forever as the last of the daylight starts to
+    fade and the air grows colder. The lights in the distance seem no closer now
+    than when you first set out on this journey. Not sure how long you''ve been walking
+    you turn around and can no longer see your ship. As you turn back towards the
+    lights, they are gone. All you see in every direction is endless purple desert.
+
+
+    Panic
+    starts to take hold of you as you have no idea where you are, and no navigational
+    tools of use. As you frantically look about you notice a figure approaching from
+    atop a dune, tall, imposing and moving towards you fast...
+
+
+    1. Approach
+    the figure peacefully, arms raised and try to communicate.
+
+    2. This is no
+    time to be friendly, prepare to defend yourself and unsheath your combat knife.
+
+    3.
+    What the hell is that doing out here? Run!
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: 175da54e4b52fe449bc3c885089a2062, type: 2}
+  - {fileID: 11400000, guid: a789c0e732d12674c8a10461414521bd, type: 2}
+  - {fileID: 11400000, guid: ed39e29bb071e074b8b4ebe3f7799284, type: 2}

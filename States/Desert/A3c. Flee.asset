@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4823a14e697b79479535cb6f25e2a7a, type: 3}
+  m_Name: A3c. Flee
+  m_EditorClassIdentifier: 
+  storyText: "Seeing the figure moving fast, you begin running as fast as you can
+    in whatever direction is away from that thing. Looking behind you, it's keeping
+    pace and still following you. The desert is quickly growing colder, each breath
+    you take seems to be harder and harder to make as you feel your extremities start
+    to feel the effects of the cold. \n\nGrasping for air you:\n\n1. Drop your gear
+    and extra equipment, surviving this is more important right now.\n2. Keep running,
+    the figure must be getting tired of this too."
+  nextStates:
+  - {fileID: 11400000, guid: 1b6e349f7ab3473449dbc148fc2381e6, type: 2}
+  - {fileID: 11400000, guid: 4448180fd07162d45ad803de13628ac9, type: 2}
